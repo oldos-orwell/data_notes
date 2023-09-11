@@ -16,13 +16,18 @@
 * декомпозиция данных, лежащая в основе модульности гибких архитектур, приводит к увеличению количества таблиц и, соответственно, накладных расходов на джойны при выборке.
 * атрибуты одной сущности хранятся в разных таблицах и нужно учитывать их версионность.
 
- Point-In-Time таблицы в Data Vault или специальные табличные функции в Якорной модели...
+Другие объекты гибких методологий:
+* Point-In-Time в DV - таблицы, в которых хранится пересечение версий сущности из всех саттелитов. Призвана упростить поиск версии сущности, основанной на нескольких саттелитах.
+* Bridge - таблицы для проектирования связей М-М
 
 
   
 ___
-[DataVault / Anchor Modeling / Николай Голов - YouTube](https://www.youtube.com/watch?v=-ZgzpQXsxi0&list=WL&index=16&t=11s&ab_channel=DataLearn)  
+[DataVault / Anchor Modeling / Николай Голов - YouTube](https://www.youtube.com/watch?v=-ZgzpQXsxi0&list=WL&index=16&t=11s&ab_channel=DataLearn)   
 [DataVault2 Anchor Modeling / Николай Голов - YouTube](https://www.youtube.com/watch?v=IZw1cB1uDts&list=WL&index=6&ab_channel=DataLearn)  
 [Activity Schema / Николай Голов - YouTube](https://www.youtube.com/watch?v=JXdz7-hCJyI&ab_channel=DataLearn)  
   
 [DV / AM - Обзор гибких методологий проектирования DWH - Habr](https://habr.com/ru/companies/glowbyte/articles/515940/)
+
+[PIT таблицы](http://www.dwh-club.com/ru/dwh-bi-articles/data-vault-daty-okonchaniya-zaprosy-soedinenii.html])  
+[Handling many-to-many joins using a bridge table](http://davidlai101.com/blog/2017/08/03/handling-many-to-many-joins-using-a-bridge-table-part-1/)
