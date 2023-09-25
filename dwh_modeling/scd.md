@@ -25,9 +25,9 @@ SCD — механизм отслеживания изменений в данн
 | изменение	| В поле NAME_OLD присваивается значение из поля NAME. <br>В поле NAME присваивается загружаемое значение. |
 | удаление	| Никаких действий над записью не производится. |
 
-* SCD4 (add history table or add mini-demension) - в одной таблице хранится актуальная версия атрибутов, история по всем или некоторым атрибутам хранится в отдельной таблице.
+* SCD4 (add history table or add mini-demension) - в основной таблице хранится актуальная версия атрибутов, история по всем или некоторым атрибутам хранится в отдельной таблице. В таблицу фактов добавляется два сурогатных ключа - на основную таблицу и на mini-demension.
 
-* SCD5 (add mini-demension and SCD1 outrigger) = SCD1+SCD4 - в дополнение к mini-demension таблице из 4 типа к основной таблице сущности добавляется ссылка на таблицу с актуальным срезом mini-demension.
+* SCD5 (add mini-demension and SCD1 outrigger) = SCD1+SCD4 - в дополнение к mini-demension таблице (из 4 типа) к основной таблице сущности добавляется ссылка на таблицу с актуальным срезом mini-demension.
 
 * SCD6 (add type 1 attributes to type 2 demension) - в SCD2 таблицу добавляться SCD1 атрибуты, которые перезаписывается для всех версий сущности.
 
@@ -36,6 +36,5 @@ SCD — механизм отслеживания изменений в данн
 ___
 [Медленно меняющееся измерение — Википедия](https://ru.wikipedia.org/wiki/Медленно_меняющееся_измерение)  
 [Медленно меняющиеся измерения (Slowly Changing Dimensions, SCD)](https://www.prj-exp.ru/dwh/slowly_changing_dimension.php)   
-
-https://en.m.wikipedia.org/wiki/Slowly_changing_dimension  
-https://www.kimballgroup.com/2013/02/design-tip-152-slowly-changing-dimension-types-0-4-5-6-7/
+[Slowly changing dimension - Wikipedia](https://en.m.wikipedia.org/wiki/Slowly_changing_dimension)  
+[Design Tip #152 Slowly Changing Dimension Types 0, 4, 5, 6 and 7 - Kimball Group](https://www.kimballgroup.com/2013/02/design-tip-152-slowly-changing-dimension-types-0-4-5-6-7/)
