@@ -74,9 +74,7 @@ Uber задача - задача в одной JVM, используется, к
   
 ### Работа с консольной утилитой hdfs  
   
-Avro  
-ORC  
-Parquet  
+
 
 ___
 [Hadoop — Википедия](https://ru.wikipedia.org/wiki/Hadoop)  
