@@ -14,4 +14,5 @@ ___
 [Trino + Hive для быстрого доступа к разным базам](https://bigdataschool.ru/blog/trino-and-hive-architecture-and-basic-principles.html)  
 [Почему Trino такой быстрый: архитектура оптимизатора SQL-запросов / Хабр](https://habr.com/ru/companies/cedrusdata/articles/744934/)  
 [Массивно-параллельная обработка запросов в Trino](https://www.cedrusdata.ru/blog/trino-massively-parallel-processing)  
-[Starburst training series, session 2: Understanding and tuning Starburst and Trino Query Processing​ - YouTube](https://www.youtube.com/watch?app=desktop&v=GcS02yTNwC0)  
+[Starburst training series, session 2: Understanding and tuning Starburst and Trino Query Processing​ - YouTube](https://www.youtube.com/watch?app=desktop&v=GcS02yTNwC0)   
+[Trino Meetup #1: Зачем Авито внедрили Trino, и как устроен оптимизатор запросов? - YouTube](https://www.youtube.com/watch?app=desktop&v=KYAiIJG0RAs)  про оптимизатор с [1:25](https://www.youtube.com/live/KYAiIJG0RAs?si=Qt_-rampXuz-8MA0&t=5154)
